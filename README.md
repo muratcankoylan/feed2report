@@ -1,6 +1,6 @@
 # Feed2Brain
 
-A one‑click feed → report system for LinkedIn: capture a post, shape a research query, and get a high‑quality answer in seconds. Built with FastAPI + Groq models.
+A one‑click feed → report system for LinkedIn (LIVE) & X (WIP): capture a post, shape a research query, and get a high‑quality answer in seconds. Built with Groq Compound and Kimi-K2.
 
 ## Quick start
 
@@ -60,9 +60,6 @@ Request body:
 - Data is persisted as JSONL at `data/reports.jsonl`
 - If the UI says “Loading…”, ensure the server is running on 8001 and hard refresh (Cmd+Shift+R)
 
-## Repo
-
-- GitHub: https://github.com/muratcankoylan/Feed2Brain
 
 ## License
 
