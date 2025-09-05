@@ -54,6 +54,22 @@ Request body:
 - `GET /reports` → returns an array of saved reports (JSON)
 - `GET /` → minimal notebook UI
 
+## Load the Chrome extension
+
+Follow these steps to load the local extension in Chrome (Manifest V3):
+
+1. Open Chrome and go to `chrome://extensions/`.
+2. Toggle on "Developer mode" (top-right).
+3. Click "Load unpacked" and select the `extension/` folder in this repo.
+4. Ensure the API server is running on `http://127.0.0.1:8001/` (see Quick start step 3).
+5. Open LinkedIn (`https://www.linkedin.com/`) and X (`https://x.com/`). You should see the injected button on posts.
+
+Notes:
+- The extension requests `activeTab`, `scripting`, and `storage` permissions and is scoped to `x.com` and `linkedin.com` per `extension/manifest.json`.
+- Host permissions include `http://127.0.0.1:8000/*` and `http://127.0.0.1:8001/*`; this is used to call your local API.
+- After updating files in `extension/`, click the refresh icon on the extension in `chrome://extensions/`.
+
+
 ## Notes
 
 Groq's blog: https://groq.com/blog/introducing-the-next-generation-of-compound-on-groqcloud
