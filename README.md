@@ -1,14 +1,5 @@
 # Feed2Brain
 
-> This is incredible. A one‑click feed → report flow that extracts a post, formulates a research question, runs web search, reasons and returns a report in seconds.
->
-> 1- Click on the button on the feed and add a query
-> 2- groq/compound-mini extracts the post from the url
-> 3- kimi-k2-instruct creates the research query
-> 4- groq/compound searches the web and uses reasoning to create a VERY good answr in seconds
->
-> Any scenario that needs fresh information + on‑the‑fly computation delivered in a single API call.
-
 A one‑click feed → report system for LinkedIn: capture a post, shape a research query, and get a high‑quality answer in seconds. Built with FastAPI + Groq models.
 
 ## Quick start
