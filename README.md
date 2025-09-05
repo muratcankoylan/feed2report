@@ -56,6 +56,8 @@ Request body:
 
 ## Notes
 
+Groq's blog: https://groq.com/blog/introducing-the-next-generation-of-compound-on-groqcloud
+
 - Requires a Groq API key (`GROQ_API_KEY`) in `.env`
 - Data is persisted as JSONL at `data/reports.jsonl`
 - If the UI says “Loading…”, ensure the server is running on 8001 and hard refresh (Cmd+Shift+R)
