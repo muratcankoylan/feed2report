@@ -1,4 +1,4 @@
-# Feed2Brain
+# Feed2Report
 
 A one‑click feed → report system for LinkedIn (LIVE) & X (WIP): capture a post, shape a research query, and get a high‑quality answer in seconds. Built with Groq Compound and Kimi-K2.
 
