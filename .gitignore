@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Env
+.venv/
+.env
+
+# OS
+.DS_Store
+
+# Local data
+/data/*.jsonl
+
+# Browser profiles
+/li_profile/
+/x_profile/
+
+# Node/extension build outputs (if any)
+node_modules/
